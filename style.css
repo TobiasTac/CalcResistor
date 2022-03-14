@@ -1,0 +1,100 @@
+#result{
+    border: 4px solid #a29bfe;
+    background-color: rgb(86, 201, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 3px #0059ff;
+}
+
+div{
+    background-color: #dfe6e9;
+    border-radius: 15px;
+    border-style: double;
+}
+.final{
+    display: none;
+    width: 50%;
+    margin-left: 24%;
+}
+#faixa{
+    width: 60%;
+    margin-left: 19%;
+}
+#formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #2d3436;
+}
+
+.buttonc {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.buttonc:hover, .buttonc:focus, .buttonc:active {
+    background-color: #31b0d5;
+    border-color: #269abc;
+    color: #fff;
+}
+
+.marrom{
+    background-color: brown;
+    color: white;
+}
+
+.amarelo{
+    background-color: yellow;
+    color: white;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.cinza{
+    background-color: #7f8c8d;
+    color: white;
+}
+
+.laranja{
+    background-color: orange;
+    color: white;
+}
+
+.preto{
+    background-color: black;
+    color: white;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.vermelho{
+    background-color: red;
+    color: white;
+}
+
+.violeta{
+    background-color: purple;
+    color: white;
+}
+
+.dourado{
+    background-color: gold;
+    color: white;
+}
+
+.prateado{
+    background-color: #bdc3c7;
+    color: white;
+}

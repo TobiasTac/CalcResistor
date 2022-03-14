@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/tacsite.ico">
+    <title>Calculadora de Resistores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <br>
+      <form>
+        <fieldset id="faixa">
+          <legend><b>Faixas do Resistor</b></legend>
+          <label for="pFaixa">1° Faixa:</label>
+          <select name="pri" id="pFaixa">
+            <option value="0" class="preto">Preta</option>
+            <option value="1" class="marrom">Marrom</option>
+            <option value="2" class="vermelho">Vermelha</option>
+            <option value="3" class="laranja">Laranja</option>
+            <option value="4" class="amarelo">Amarela</option>
+            <option value="5" class="verde">Verde</option>
+            <option value="6" class="azul">Azul</option>
+            <option value="7" class="violeta">Violeta</option>
+            <option value="8" class="cinza">Cinza</option>
+            <option value="9" class="branca">Branca</option>
+          </select>
+          <label for="sFaixa">2° Faixa:</label>
+          <select name="seg" id="sFaixa">
+            <option value="0" class="preto">Preta</option>
+            <option value="1" class="marrom">Marrom</option>
+            <option value="2" class="vermelho">Vermelha</option>
+            <option value="3" class="laranja">Laranja</option>
+            <option value="4" class="amarelo">Amarela</option>
+            <option value="5" class="verde">Verde</option>
+            <option value="6" class="azul">Azul</option>
+            <option value="7" class="violeta">Violeta</option>
+            <option value="8" class="cinza">Cinza</option>
+            <option value="9">Branca</option>
+          </select>
+          <label for="tFaixa">3° Faixa:</label>
+          <select name="ter" id="tFaixa">
+            <option value="0" class="preto">Preta</option>
+            <option value="1" class="marrom">Marrom</option>
+            <option value="2" class="vermelho">Vermelha</option>
+            <option value="3" class="laranja">Laranja</option>
+            <option value="4" class="amarelo">Amarela</option>
+            <option value="5" class="verde">Verde</option>
+            <option value="6" class="azul">Azul</option>
+            <option value="7" class="violeta">Violeta</option>
+            <option value="8" class="cinza">Cinza</option>
+            <option value="9">Branca</option>
+          </select>
+          <label for="quaFaixa">Multiplicador:</label>
+          <select name="qua" id="quaFaixa">
+            <option value="1" class="preto">Preta</option>
+            <option value="10" class="marrom">Marrom</option>
+            <option value="100" class="vermelho">Vermelha</option>
+            <option value="1000" class="laranja">Laranja</option>
+            <option value="10000" class="amarelo">Amarela</option>
+            <option value="100000" class="verde">Verde</option>
+            <option value="1000000" class="azul">Azul</option>
+            <option value="10000000" class="violeta">Violeta</option>
+            <option value="0.1" class="dourado">Dourada</option>
+            <option value="0.01" class="prateado">Prateada</option>
+          </select>
+          <label for="quiFaixa">Tolerância:</label>
+          <select name="qui" id="quiFaixa">
+            <option value="0.01" class="marrom">Marrom</option>
+            <option value="0.02" class="vermelho">Vermelha</option>
+            <option value="0.005" class="verde">Verde</option>
+            <option value="0.0025" class="azul">Azul</option>
+            <option value="0.001" class="violeta">Violeta</option>
+            <option value="0.0005" class="cinza">Cinza</option>
+            <option value="0.05" class="dourado">Dourada</option>
+            <option value="0.1" class="prateado">Prateada</option>
+          </select>
+        </fieldset>
+        <fieldset class="final">
+          <legend><b>Resultado</b></legend>
+          <div id="result"></div>
+        </fieldset>
+      </form>
+      <br>
+      <p><button type="button" onclick="pegarDados()" class="buttonc"><b>Calcular</b></button></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
